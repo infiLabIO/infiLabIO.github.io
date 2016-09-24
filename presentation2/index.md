@@ -7,7 +7,6 @@ framework   : revealjs
 highlighter : highlight.js  
 hitheme     : default      
 revealjs:
-  theme: Moon
   transition: Convex
   center: "true"
 widgets     : []            
@@ -21,7 +20,8 @@ knit        : slidify::knit2slides
         background-color: #818286;
         color: white;
     }
-
+    
+    
 
     body .imgBackground{
         height:100%;
