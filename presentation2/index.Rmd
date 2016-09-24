@@ -7,7 +7,7 @@ framework   : revealjs
 highlighter : highlight.js  
 hitheme     : default      
 revealjs:
-  theme: Moon
+  theme: default
   transition: Convex
   center: "true"
 widgets     : []            
