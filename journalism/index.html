@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=1024" />
+   <meta name="apple-mobile-web-app-capable" content="yes" />
+   <title>on Data Journalism</title>
+   <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+   <meta name="author" content="infiLab.io" />
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+   <link href="libraries/frameworks/impressjs/css/impress-demo.css" rel="stylesheet" />
+   <link rel="shortcut icon" href="libraries/frameworks/impressjs/favicon.png" />
+   <link rel="apple-touch-icon" href="libraries/frameworks/impressjs/apple-touch-icon.png" />
+   <link href="libraries/highlighters/highlight.js/css/tomorrow.css" rel="stylesheet" />   <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body class="impress-not-supported">
+  <div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are   
+      presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> 
+      browser.</p>
+  </div>
+  <div id="impress">
+    
+    <div id="slide-1" class="step slide" 
+  data-x="-1000" data-y="-1500"  
+   
+    
+    
+   >
+ 
+ <style type="text/css">
+
+        .demo {
+            width:30%;
+            height:30%;
+            border:1px solid #C0C0C0;
+            border-collapse:collapse;
+            padding:5px;
+        }
+        .demo th {
+            border:1px solid #C0C0C0;
+            padding:5px;
+            background:#F0F0F0;
+        }
+        .demo td {
+            border:1px solid #C0C0C0;
+            padding:5px;
+        }
+        
+      
+</style>
+
+<script>
+function getVote(int) {
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("poll").innerHTML=this.responseText;
+    }
+  }
+  xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+  xmlhttp.send();
+}
+</script>
+
+<p align="center"><q>What if journalism was <br> <b>more</b> <br> than presenting news and information</q></p>
+
+</div>
+<div id="title" class="step " 
+  data-x="0" data-y="0"  
+   
+    
+    
+    data-scale="4">
+ 
+ <p><br>
+<span class="try">what if it was about human</span></p>
+
+<h1>interaction<sup>*</sup></h1>
+
+<p><span class="footnote"><sup>*</sup> two or more entities reacting to each other</span></p>
+
+</div>
+<div id="its" class="step " 
+  data-x="850" data-y="3000"  
+    data-rotate="45" 
+    
+    
+    data-scale="5">
+ 
+ <p>Then consider <strong>data journalism</strong> <br/>
+&ldquo; where facts are sacred &rdquo;
+<a href="https://en.wikipedia.org/wiki/Data_journalism"><font size="5px">Guardian editor 1921</font></a><br/>
+and <strong>publishing</strong> those sacred facts has become <strong>a new type of journalism</strong> in itself</p>
+
+</div>
+<div id="big" class="step " 
+  data-x="3500" data-y="2100"  
+    data-rotate="180" 
+    
+    
+    data-scale="6">
+ 
+ <p>let us visualize your <b>big</b> <span class="thoughts">news reports</span></p>
+
+</div>
+<div id="tiny" class="step " 
+  data-x="2825" data-y="2325" data-z="-3000" 
+    data-rotate="300" 
+    
+    
+    data-scale="1">
+ 
+ <p>and make <strong>tiny</strong> news<br> engaging</p>
+
+</div>
+<div id="ing" class="step " 
+  data-x="3500" data-y="-850"  
+    data-rotate="270" 
+    
+    
+    data-scale="6">
+ 
+ <p>by <b class="positioning">communicating</b> <b class="rotating">information</b> and <b class="positioning">news</b> through <b class="rotating">visual stories</b></p>
+
+</div>
+<div id="imagination" class="step " 
+  data-x="6700" data-y="-300"  
+   
+    
+    
+    data-scale="6">
+ 
+ <p>or capturing reader <strong>feelings</strong> about the story</p>
+
+</div>
+<div id="slide-8" class="step " 
+  data-x="6300" data-y="2000"  
+    data-rotate="20" 
+    
+    
+    data-scale="4">
+ 
+ <p><br>
+&ldquo; Today took place the 10th Athenian Classic Marathon,<br>
+also the unemployment rate was announced &rdquo; </p>
+
+<div id="poll">
+<br><font size="6px"><b><i>Which is more challenging</i></b></font>
+<form>
+<font size="5px">Training for a marathon</font>
+<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+<br><font size="5px">Findind a job in Greece</font>
+<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+</form>
+</div>
+
+</div>
+<div id="one-more-thing" class="step " 
+  data-x="6000" data-y="4000"  
+   
+    
+    
+    data-scale="2">
+ 
+ <p>&ldquo; The Greek 2016/17 football league is about to start &rdquo;
+<br>
+<font size="6px">
+Why have this:</p>
+
+<table class="demo" bgcolor="#FFFFFF">
+    <caption></caption> <thead> <tr>        <th>Country</th>
+        <th>Players</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>&nbsp;Brazil</td>
+        <td>&nbsp;22</td>
+    </tr>
+    <tr>
+        <td>&nbsp;Germany</td>
+        <td>&nbsp;11</td>
+    </tr>
+    <tr>
+        <td>&nbsp;Spain</td>
+        <td>&nbsp;22</td>
+    </tr>
+    <tr>
+        <td>&nbsp;...</td>
+        <td>&nbsp;...</td>
+    </tr>
+    </tbody>
+</table>
+
+<p></font></p>
+
+</div>
+<div id="its-in-ddd" class="step " 
+  data-x="6200" data-y="4800" data-z="-100" 
+   
+   data-rotate-x="-40" 
+   data-rotate-y="-10" 
+    data-scale="2">
+ 
+ <p><span class="have">When</span> <span class="you">you</span> <span class="noticed">can </span> <span class="its">it&#39;s</span> <span class="in">have</span> <b>this<sup>*</sup></b>?
+<br></p>
+
+<iframe src="hc.html" width="800" height="500"> </iframe>
+
+<p><span class="footnote">* hover over the graph</span></p>
+
+</div>
+<div id="rstats" class="step " 
+  data-x="-1000" data-y="5000"  
+   
+    
+    
+   >
+ 
+ <p><br>
+Or why this?
+<br>
+&ldquo; The value of Fourtounis is at 10 mil. euros, in second place we find.. &rdquo;
+<br></p>
+
+</div>
+<div id="slide-12" class="step " 
+  data-x="-1500" data-y="5500"  
+   
+    
+    
+   >
+ 
+ <p><br>
+When we can have this:
+<br></p>
+
+<iframe src="hc2.html" width="800" height="500"> </iframe>
+
+</div>
+<div id="its-in-3d" class="step " 
+  data-x="1000" data-y="5500" data-z="-100" 
+   
+   data-rotate-x="-40" 
+   data-rotate-y="-10" 
+    data-scale="4">
+ 
+ <p><br>
+More on Data Journalism for
+<br>
+<font size="5px"></p>
+
+<ul>Politics / Economics</ul>
+
+<ul>Sports</ul>
+
+<p><ul>Global warming</ul></font>
+<a href="http://www.infilab.io">@infiLab</a></p>
+
+</div>
+ 
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+
+  </div>
+
+  <div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+  </div>
+  
+  <div style="position: fixed; bottom: 10px; left: 10px; pointer-events: auto;">
+      <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+  </div>
+  </body>
+ <script>
+  if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+  }
+ </script>
+ <script src="libraries/frameworks/impressjs/js/impress.js"></script>
+ <script>impress().init();</script>
+ <!-- LOAD HIGHLIGHTER JS FILES -->
+ <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+ <script>hljs.initHighlightingOnLoad();</script>
+ <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+  
+ </html>
