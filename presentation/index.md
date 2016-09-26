@@ -5,16 +5,13 @@ author      : Dimitris Psaradellis
 job         : all about Data @infiLab
 framework   : revealjs        
 highlighter : highlight.js  
-hitheme     : default      
 revealjs:
-  theme: default
-  transition: linear
+  transition: Convex
   center: "true"
 widgets     : []            
 mode        : selfcontained 
 knit        : slidify::knit2slides
 ---
-
 
 <style>
 
@@ -22,39 +19,38 @@ knit        : slidify::knit2slides
         background-color: #818286;
         color: white;
     }
-
-
-    body .imgBackground{
-        height:100%;
-        width:100%;
-        background-image:url(http://i.imgsafe.org/642ba63594.jpg); 
-        background-repeat:no-repeat;
-        background-size:cover;   
-        filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
-        -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+    
+    body {
+        background-image: url("http://i.imgsafe.org/642ba63594.jpg");
     }
 
 </style>
+
 <br><br>
 <br><br>
 
-### <font size="12px">An intro to our company, where it is...</font>
-## <mark>all about Data <font size="6px">created by </font><font color="#BE202F">infiLab</font></mark>
+## all about Data <font size="6px">created by </font><font color="#914A58">infiLab</font>
+### <font size="12px">An intro to our company...</font>
+
 
 <br><br>
 
 Dimitris Nikoglou - Dimitris Psaradellis
 
-[Contanct Me](mailto:dimitrisnk@infilab.io) <font size="6px"> or </font> [Contanct Me](mailto:dimitrisnps@infilab.io)
+[Contact Me](mailto:dimitrisnk@infilab.io) <font size="6px"> or </font> [Contact Me](mailto:dimitrisnps@infilab.io)
 
 Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
+<br>
+<a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="image-orientation: 90deg; border: 0;"></a>
 
 
 ---
 
 ### 
 
-<div class="imgBackground"><p align="left"><font size="6px" color="#737C81"><br>&nbsp;&nbsp;We are a Zurich based Start Up<br><br>&nbsp;&nbsp;Focusing on building efficient solutions <br>&nbsp;&nbsp;for enterprises in various aspects of <br>&nbsp;&nbsp;Finance, Big Data and Marketing Insights. <br><br>&nbsp;&nbsp;Our mission: <br> </font>&nbsp;&nbsp;<font color="#914A58" size="6px">Make your </font><font color="#914A58" size="7px">&nbsp;Data Life Exciting </font></p><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+<font size="6px" ><br>&nbsp;&nbsp;We are a Zurich based Start Up<br><br>&nbsp;&nbsp;Focusing on building efficient solutions <br>&nbsp;&nbsp;for enterprises in various aspects of <br>&nbsp;&nbsp;Finance, Big Data and Marketing Insights. <br><br>&nbsp;&nbsp;Our mission: <br> </font>&nbsp;&nbsp;<font color="#914A58" size="6px">Make your </font><font color="#914A58" size="7px">&nbsp;Data Life Exciting </font>
+<br>
+<a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="border: 0;"></a>
 
 
 ---
@@ -63,15 +59,15 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 
 <br>
 <br>
+<section data-background-transition="Zoom">
+<br>
+<br>
 
-<section>
-<br>
-<br>
-<font size="5px">From September 2016 we decided to focus on shaping  </font><br><mark><font size="6px" color="#BE202F">**company biographies**</font> <font size="5px">derived from </font><font size="6px" color="#BE202F">**business data**</font>.</mark>
+<font size="6px">From September 2016 we decided to focus on </font><br><font size="7px" color="#914A58">**shaping company biographies**</font> <font size="6px">derived from </font><font size="7px" color="#914A58">**business data**</font>
 <br>
 <br>
 <br>
-<font size="5px">Find out about us by pressing </font><a href="#" class="navigate-down">down</a>
+<p><font size="5px">Find out about us </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 
 
@@ -81,7 +77,9 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 <p><a href="https://www.linkedin.com/in/dimitris-nikoglou-80629436"><img src="https://i.imgsafe.org/55826103ab.jpg" alt="dimitrisn" align="left"></a> <font size="6px">Hi, I am Dimitris and I am one of the two Co-founders of Infilab, a Zurich based Start-up. I have more than 9 years of experience in various positions in Business Finance having worked at global leaders in FMCG, Retail & Fashion and Healthcare.</font></p>
 <br>
 <br>
-<font size="4px">Find &nbsp;&nbsp;out&nbsp;&nbsp; more &nbsp;&nbsp;about&nbsp;&nbsp; Dimitris &nbsp;&nbsp; by &nbsp;&nbsp;clicking &nbsp;&nbsp;on &nbsp;&nbsp;the&nbsp;&nbsp; image</font>
+<p><font size="4px">Find &nbsp;&nbsp;out&nbsp;&nbsp; more &nbsp;&nbsp;about&nbsp;&nbsp; Dimitris &nbsp;&nbsp; by &nbsp;&nbsp;clicking &nbsp;&nbsp;on &nbsp;&nbsp;the&nbsp;&nbsp; image</font>
+
+<a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 ---
 
@@ -89,14 +87,19 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 <p><a href="https://www.linkedin.com/in/dpsaradellis"><img src="https://i.imgsafe.org/5581b18307.jpg" alt="dimitrisn" align="left"></a> <font size="6px">Hi, I am also named Dimitris and the other Co-founder of Infilab. I have worked in various multinational companies in Consulting, Internet, Pharmaceutical, Banking sectors. My passion is Big Data Analytics and the recognition of patterns in the data.</font></p>
 <br>
 <br>
-<font size="4px">Find &nbsp;&nbsp;out&nbsp;&nbsp; more &nbsp;&nbsp;about&nbsp;&nbsp; Dimitris &nbsp;&nbsp; by &nbsp;&nbsp;clicking &nbsp;&nbsp;on &nbsp;&nbsp;the&nbsp;&nbsp; image</font>
+<p><font size="4px">Find &nbsp;&nbsp;out&nbsp;&nbsp; more &nbsp;&nbsp;about&nbsp;&nbsp; Dimitris &nbsp;&nbsp; by &nbsp;&nbsp;clicking &nbsp;&nbsp;on &nbsp;&nbsp;the&nbsp;&nbsp; image</font>
+
+<a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
+
 </section>
 
 --- &vertical
 
 ### Our Focus Areas
+<br>
+<p><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
-<section>
+<section data-background-transition="Convex">
 
 ---
 
@@ -113,7 +116,7 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 </font>
 
 <br>
-<font size="5px">for more go  </font><a href="#" class="navigate-down">down</a>
+<p><font size="5px">for more go  </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 ---
 
@@ -123,17 +126,15 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 <font size="6px">
 <ul>
   <li> Recommendation Engines</li>
-  <li> Synthetic Control Experimantation</li>
+  <li> Synthetic Control Experimentation</li>
   <li> Supervised - Unsupervised Learning</li>
   <li> Text Mining</li>
 </ul>
 </font>
-
 <br>
-<font size="5px">for more go </font><a href="#" class="navigate-down">down</a>
+<p><font size="5px">for more go  </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 ---
-
 
 <br>
 <font size="7px">
@@ -149,17 +150,27 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
   <li> Data Journalism</li>
 </ul>
 </font>
-
+<a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="border: 0;"></a>
 
 
 </section>
 
 --- &vertical
 
-# Thank you! 
+### A sample of our work
+
+[On Data Journalism (in Greek)](http://rpubs.com/infilab/football)
+<br>
+[Zurich R meetup, on CrossTalk](http://zurich-r-user-group.github.io/slides.html)
+<br>
+<a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="border: 0;"></a>
+
+---
+
+### Thank you 
  
-## Questions? [@](mailto:info@infilab.io)
+### Questions?
 
-[infiLab](http://infilab.io) or info(at)infilab.io
+<font size="5px">go to </font>[infiLab](http://infilab.io) <font size="5px">or </font>info(at)infilab.io
 
-[@infiLab](https://twitter.com/infiLab)
+Twitter: [@infiLab](https://twitter.com/infiLab)
