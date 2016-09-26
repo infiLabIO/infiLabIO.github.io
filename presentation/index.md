@@ -21,7 +21,7 @@ knit        : slidify::knit2slides
     }
     
     body {
-        background-image: url("http://i.imgsafe.org/642ba63594.jpg");
+        background-image: url("http://i.imgsafe.org/8e9cbb672c.jpg");
     }
 
 </style>
@@ -40,7 +40,6 @@ Dimitris Nikoglou - Dimitris Psaradellis
 [Contact Me](mailto:dimitrisnk@infilab.io) <font size="6px"> or </font> [Contact Me](mailto:dimitrisnps@infilab.io)
 
 Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
-<br>
 <a href="#" class="navigate-right"><img src='http://www.clipartbest.com/cliparts/dc6/e7a/dc6e7arRi.gif' width=50 height=50 align='right' style="image-orientation: 90deg; border: 0;"></a>
 
 
@@ -116,7 +115,7 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 </font>
 
 <br>
-<p><font size="5px">for more go  </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
+<p><font size="5px"> </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 ---
 
@@ -132,7 +131,7 @@ Where to find us, besides Zurich [@infiLab.io](http://infilab.io)
 </ul>
 </font>
 <br>
-<p><font size="5px">for more go  </font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
+<p><font size="5px"></font><a href="#" class="navigate-down"><img src='http://www.clipartbest.com/cliparts/9iR/6jG/9iR6jGXie.gif' width=50 height=50 align='right' style="border: 0;"></a></p>
 
 ---
 
