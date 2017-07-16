@@ -1,0 +1,60 @@
+---
+author: "Inspired by your customers ...for your customers"
+title: Recommender Engine (RE)
+output: 
+  ioslides_presentation:
+    css: shiny-slides.css
+    logo: images/logo.png
+    self_contained: no
+    incremental: true
+---
+
+# Learn from your Customers to increase revenue
+
+## Goal of RE
+
+
+####Across your entire website, 
+#### ...        Inspire your customers with relevant shopping options
+
+### It seeks to predict the "preference" of a customer to a product
+
+####Recommendations make it easy to show customers relevant products they may be interested in
+
+###Personalized the experience of each visitor...
+
+####by using state of the art Machine Learning Algorithms
+
+# Two types of RE
+
+## Content based
+
+### When browsing a product propose relevant  alternatives
+
+![breakpoints](images/pharma16.jpg)
+
+*Breakpoint (armed)*
+
+## Cart based (1 of 2)
+
+### When adding to cart propose complementary products
+
+![breakpoints](images/cart1.jpg)
+
+## Cart based (2 of 2)
+### With Pampers recommend...
+![breakpoints](images/cart2.jpg)
+
+*Stepping after execution*
+
+## What we do differently
+
+### Instead of popular recommendation, choose relevance
+
+![breakpoints](images/RE.jpg)
+
+
+
+# Wrapup
+
+Any questions?
