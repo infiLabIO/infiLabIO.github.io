@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recommender Engine (RE)</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="generator" content="pandoc" />
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <base target="_blank">
+
+  <script type="text/javascript">
+    var SLIDE_CONFIG = {
+      // Slide settings
+      settings: {
+                title: 'Recommender Engine (RE)',
+                        useBuilds: true,
+        usePrettify: true,
+        enableSlideAreas: true,
+        enableTouch: true,
+                        favIcon: 'index_files/logo.png',
+              },
+
+      // Author information
+      presenters: [
+            {
+        name:  'Inspired by your customers …for your customers' ,
+        company: '',
+        gplus: '',
+        twitter: '',
+        www: '',
+        github: ''
+      },
+            ]
+    };
+  </script>
+
+  <link href="index_files/ioslides-13.5.1/fonts/fonts.css" rel="stylesheet" />
+  <link href="index_files/ioslides-13.5.1/theme/css/default.css" rel="stylesheet" />
+  <link href="index_files/ioslides-13.5.1/theme/css/phone.css" rel="stylesheet" />
+  <script src="index_files/ioslides-13.5.1/js/modernizr.custom.45394.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/prettify/prettify.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/prettify/lang-r.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/prettify/lang-yaml.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/hammer.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/slide-controller.js"></script>
+  <script src="index_files/ioslides-13.5.1/js/slide-deck.js"></script>
+
+  <style type="text/css">
+
+    b, strong {
+      font-weight: bold;
+    }
+
+    em {
+      font-style: italic;
+    }
+
+    slides > slide {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+
+    .auto-fadein {
+      -webkit-transition: opacity 0.6s ease-in;
+      -webkit-transition-delay: 0.4s;
+      -moz-transition: opacity 0.6s ease-in 0.4s;
+      -o-transition: opacity 0.6s ease-in 0.4s;
+      transition: opacity 0.6s ease-in 0.4s;
+      opacity: 0;
+    }
+
+    slides > slide:not(.nobackground):before {
+      font-size: 12pt;
+      content: "";
+      position: absolute;
+      bottom: 20px;
+      left: 60px;
+      background: url(index_files/logo.png) no-repeat 0 50%;
+      -webkit-background-size: 30px 30px;
+      -moz-background-size: 30px 30px;
+      -o-background-size: 30px 30px;
+      background-size: 30px 30px;
+      padding-left: 40px;
+      height: 30px;
+      line-height: 1.9;
+    }
+  </style>
+
+  <link rel="stylesheet" href="shiny-slides.css" type="text/css" />
+
+</head>
+
+<body style="opacity: 0">
+
+<slides>
+
+  <slide class="title-slide segue nobackground">
+        <aside class="gdbar"><img src="index_files/logo.png"></aside>
+        <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+          </hgroup>
+  </slide>
+
+<slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Learn from your Customers to increase revenue</h2></hgroup><article  id="learn-from-your-customers-to-increase-revenue">
+
+</article></slide><slide class=''><hgroup><h2>Goal of RE</h2></hgroup><article  id="goal-of-re">
+
+<h4>Across your entire website,</h4>
+
+<h4>&#8230; Inspire your customers with relevant shopping options</h4>
+
+<h3>It seeks to predict the &quot;preference&quot; of a customer to a product</h3>
+
+<h4>Recommendations make it easy to show customers relevant products they may be interested in</h4>
+
+<h3>Personalized the experience of each visitor&#8230;</h3>
+
+<h4>by using state of the art Machine Learning Algorithms</h4>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Two types of RE</h2></hgroup><article  id="two-types-of-re">
+
+</article></slide><slide class=''><hgroup><h2>Content based</h2></hgroup><article  id="content-based">
+
+<h3>When browsing a product propose relevant alternatives</h3>
+
+<img src='images/pharma16.JPG' title='fig:'/><p class='caption'>breakpoints</p>
+
+<p><em>Breakpoint (armed)</em></p>
+
+</article></slide><slide class=''><hgroup><h2>Cart based (1 of 2)</h2></hgroup><article  id="cart-based-1-of-2">
+
+<h3>When adding to cart propose complementary products</h3>
+
+<img src='images/cart1.JPG' title='fig:'/><p class='caption'>breakpoints</p>
+
+</article></slide><slide class=''><hgroup><h2>Cart based (2 of 2)</h2></hgroup><article  id="cart-based-2-of-2">
+
+<h3>With Pampers recommend&#8230;</h3>
+
+<img src='images/cart2.JPG' title='fig:'/><p class='caption'>breakpoints</p>
+
+<p><em>Stepping after execution</em></p>
+
+</article></slide><slide class=''><hgroup><h2>What we do differently</h2></hgroup><article  id="what-we-do-differently">
+
+<h3>Instead of popular recommendation, choose relevance</h3>
+
+<img src='images/RE.JPG' title='fig:'/><p class='caption'>breakpoints</p>
+
+</article></slide><slide class='segue dark nobackground level1'><hgroup class = 'auto-fadein'><h2>Wrapup</h2></hgroup><article  id="wrapup">
+
+<p>Any questions?</p></article></slide>
+
+
+  <slide class="backdrop"></slide>
+
+</slides>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+<!-- map slide visiblity events into shiny -->
+<script>
+  (function() {
+    if (window.jQuery) {
+       window.jQuery(document).on('slideleave', function(e) {
+         window.jQuery(e.target).trigger('hidden');
+      });
+       window.jQuery(document).on('slideenter', function(e) {
+         window.jQuery(e.target).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+</body>
+</html>
