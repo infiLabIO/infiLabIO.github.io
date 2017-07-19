@@ -3,6 +3,7 @@ author: "Inspired by your customers ...for your customers"
 title: Recommender Engine (RE)
 output: 
   ioslides_presentation:
+    widescreen: true
     css: shiny-slides.css
     logo: images/logo.png
     self_contained: no
